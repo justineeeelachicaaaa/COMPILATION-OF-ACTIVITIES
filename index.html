@@ -1,62 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A great blog</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=PT+Serif:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-      <h1>A really good blog article</h1>
-      <p class="subtitle">A short description explaining why this is a good article and trying to get you to stick
-        around.
-      </p>
+      <nav>
+        <p>spook<span class="ify">ify.</span></p>
+        <ul>
+          <li>Stories</li>
+          <li>Authors</li>
+          <li>Contact</li>
+          <a href="#">Sign Up</a>
+        </ul>
+      </nav>
     </header>
-    <div class="container">
-      <p class="lead">Nam ultrices orci duis eget leo, elementum id. Pharetra ut blandit nisl aliquet <strong>morbi quam
-          a viverra
-          venenatis</strong>. Posuere quis bibendum ut nunc mauris nibh. Mauris mi sodales pretium fusce. Nulla
-        scelerisque magna tincidunt aliquam, tempor, neque lobortis gravida. Tellus ante nec laoreet ullamcorper sit
-        vulputate urna.</p>
-      <p>Enim suspendisse ante scelerisque hendrerit eget vestibulum velit. Vestibulum amet a id a mattis nisl.
-        <strong>Id
-          sed donec vel pharetra</strong> tellus. Orci, at sed amet, enim luctus odio scelerisque. Purus vitae natoque
-        in
-        lacus suspendisse accumsan <a href="#">tempor faucibus nam</a>. Pulvinar nisl pellentesque congue lectus turpis
-        ornare. Elementum,
-        in tincidunt duis nulla sagittis. Lectus nunc velit, cursus donec magna leo massa, faucibus ac. Risus commodo eu
-        urna, aenean nulla mi orci, leo.</p>
-      <p><strong>Sollicitudin mi sed faucibus tellus risus, erat imperdiet nunc</strong>. Mi massa fames consequat
-        nulla.
-        Consectetur at
-        nascetur facilisis pretium interdum gravida. Elit, nisi, ipsum fames tortor, tempor morbi et. Pellentesque sed
-        risus mattis ut dictum. Lacinia aliquam habitasse in scelerisque. Tristique tincidunt vestibulum viverra sed
-        tincidunt massa. Tortor facilisis malesuada ac fermentum. <a href="#">Euismod phasellus arcu</a> a, in nam.
-        Mollis
-        donec nunc orci
-        tristique venenatis porttitor consectetur et, amet. Velit, tempor non sit massa gravida quam fringilla. Sodales
-        est donec non arcu, volutpat. In volutpat rhoncus eget ac mi consequat. Sodales lectus adipiscing diam egestas
-        ut
-        quis id nunc. Tristique ac, nulla adipiscing viverra convallis pharetra, est, cras tempus.</p>
-      <p>Turpis diam sit sed suspendisse. Volutpat tristique faucibus at lorem purus accumsan consectetur. Eget gravida
-        ullamcorper a et. Nunc malesuada dolor ultrices mattis. Rhoncus erat curabitur aliquam vitae eget turpis. Lorem
-        vitae ut metus egestas amet eget neque. Ultrices sem massa urna, cum condimentum dignissim lectus proin. Euismod
-        tempor, nulla nulla diam. Quisque elit morbi proin ut auctor ipsum. Mi ut ut gravida integer a.</p>
-      <p>Amet, nam turpis id dignissim tortor tempor fames convallis suscipit. Eu venenatis arcu amet diam nullam nec, a
-        morbi porttitor. Nulla blandit pulvinar elementum turpis imperdiet venenatis metus. Blandit eget non, at turpis
-        suspendisse elementum arcu dictum accumsan. Tincidunt porttitor pretium tellus eu, ut. Risus, aenean aliquam
-        ligula rutrum pretium et, morbi risus, sit. Porta nec amet sed viverra interdum fringilla tincidunt. Aliquam
-        donec
-        massa venenatis libero pellentesque. At eget felis lorem felis. Blandit eget eget ultricies amet, consequat
-        lacus
-        hendrerit vitae. Elit auctor tincidunt tellus id mauris, posuere leo viverra.</p>
-  </article>
-  </div>
-</body>
-
+    <main>
+      <section class="hero">
+        <div>
+          <figure>
+            <img src="images/landing-image.png" alt="Pumpkin Image" />
+          </figure>
+          <h1>Tales of the Undead</h1>
+          <h2>Scare yourself, scare your friends. for all we care</h2>
+          <a href="#">Sign Up</a>
+        </div>
+      </section>
+      <section class="stories">
+        <div>
+          <h1 class="text">Top Stories</h1>
+          <div class="paramdam">
+            <figure>
+              <img src="images/paramdam.png" alt="Top Story - Paramdam" />
+            </figure>
+            <div class="box-orange"></div>
+            <h3>Paramdam</h3>
+            <p>
+              Mga bandang gabi or madaling araw nagising sya kasi may dumadaan
+              sa bintana kaya binuksan nya pinto nun, pag bukas ng pinto nakita
+              nya daw si papa naka upo dun sa pwesto nys ng pinag iinuman. Iyak
+              ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag
+              tinda dahil sa takot.<br />Kinabukasan, dun na rin ako natulog
+              samin pero sumama pa rin pinsan ko dahil sa takot.
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+          <div class="Senyales">
+            <figure>
+              <div class="box-blue"></div>
+              <img src="images/senyales.png" alt="Top Story - Senyales" />
+            </figure>
+            <h3>Senyales</h3>
+            <p>
+              Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw
+              na barilan sa labas ng tinatrabahoan namin at may patay isa
+              nabaril raw. May damage rin ang store na pinagtrabahoan namin.<br />
+              Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng
+              mag inang yun, siguro ako yung nabiktima nung gabing yun, laking
+              pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin pero
+              hindi ko mahanap.
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+        </div>
+      </section>
+      <section class="authors">
+        <h1 class="text">Top Authors</h1>
+        <div>
+          <div>
+            <figure>
+              <img src="images/author-cris.png" alt="Top Author #1" />
+              <h3>Cris James</h3>
+              <p>Story: Paramdam <br />Published: 2022</p>
+            </figure>
+          </div>
+          <div>
+            <figure>
+              <img src="images/author-katie.png" alt="Top Author #2" />
+              <h3>Katie Kim</h3>
+              <p>Story: Senyales<br />Published: 2009</p>
+            </figure>
+          </div>
+          <div>
+            <figure>
+              <img src="images/author-scarlette.png" alt="Top Author #3" />
+              <h3>Scarlette Dickinson</h3>
+              <p>Story: Halik na Itim<br />Published:2022</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <img src="images/Vector.png" alt="Vector" />
+    <div class="form-row">
+      <h1>Dare to spookify?</h1>
+      <input type="text" placeholder="" />
+      <input type="submit" value="Spook Us" />
+    </div>
+    <p class="copyright">©2025 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
+  </footer>
 </html>
