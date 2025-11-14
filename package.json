@@ -1,15 +1,15 @@
 {
-  "name": "html-css",
+  "name": "javascript",
   "version": "1.0.0",
-  "description": "A template for HTML and CSS",
-  "main": "index.html",
+  "description": "The JavaScript template",
   "scripts": {
-    "start": "serve"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
-  "keywords": ["html", "css"],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
   "devDependencies": {
-    "serve": "11.2.0"
-  }
+    "parcel": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
+  },
+  "keywords": ["css", "javascript"]
 }
